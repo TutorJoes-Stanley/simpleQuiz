@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher_foreground"
+        android:adjustViewBounds="true"
+        android:maxWidth="300dp"
+        android:maxHeight="200dp"
+        />
+<TextView
+    android:id="@+id/txtQue"
+    android:text="@string/my_question1"
+    android:textColor="@android:color/white"
+    android:layout_width="wrap_content"
+    android:textSize="20sp"
+    android:padding="10dp"
+    android:layout_height="wrap_content"
+/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="34dp"
+        >
+        <Button
+            android:id="@+id/btnYes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_green_dark"
+            android:text="@string/yes"
+            android:textColor="@android:color/white" />
+        <Button
+            android:id="@+id/btnNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_red_dark"
+            android:text="@string/no"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+</LinearLayout>

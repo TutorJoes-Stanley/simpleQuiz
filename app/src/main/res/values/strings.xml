@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Simple Quiz</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="my_question1"><b>Dennis Ritchie </b> American computer scientist. He created the C programming language.</string>
+    <string name="my_question2">Apple Inc. is an American multinational technology company by Bill <b></b>Gate</string>
+    <string name="my_question3"><b>FaceBook</b>\nWas developed by Google.</string>
+    <string name="my_question4"><b>Java</b> is not an Object Oriented Programming Language.</string>
+    <string name="my_question5"><b>WWW</b> means World Wide Web.</string>
+</resources>
